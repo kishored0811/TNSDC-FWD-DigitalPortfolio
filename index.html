@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+        <h1>Kishore D</h1>
+        <p class="subtitle">Bachelor of Science, madras University</p>
+      <button id="darkModeToggle">🌙</button>
+    </div>
+  </header>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link active">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+      <section class="welcome-section">
+            <h1>Welcome!</h1>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Hello! My name is Kishore, and I am currently a 2nd year BSc Computer Science student. I am passionate about programming, algorithms, and building innovative software solutions.</p>
+    </section>
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Python</li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Developed a responsive portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.</p>
+      </div>
+      <div class="project-card">
+        <h3>Java Swing Application</h3>
+        <p>Created a multi-threaded Java Swing app demonstrating GUI event handling and thread synchronization.</p>
+      </div>
+      <div class="project-card">
+        <h3>Database Management</h3>
+        <p>Designed and implemented SQL database for student record management with CRUD operations.</p>
+      </div>
+    </div>
+    <br><br><br>
+  <section class="contact-section">
+  <div class="contact-info">
+    <h2>Contact Me</h2>
+    <ul class="info-list">
+      <li>
+        <span class="icon">&#9993;</span>
+        <a href="mailto:kishore.d0811@gmail.com">kishore.d0811@gmail.com</a>
+      </li>
+      <li>
+        <span class="icon">&#128222;</span>
+        <span>9600279035</span>
+      </li>
+    </ul>
+    <div class="social-links">
+      <a href="https://www.facebook.com/"><i class='bx bx1-facebook'></i>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <button class="contact-btn">Contact Me</button>
+  </div>
+  <form class="contact-form" id="contactForm">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="submit-btn">Submit</button>
+    <div class="form-result" id="formResult"></div>
+  </form>
+</section>
+    </section>  
+  </main>
+  <footer>
+    <p>&copy; 2025 Kishore</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
