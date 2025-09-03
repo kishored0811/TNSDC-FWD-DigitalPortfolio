@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">KISHORE D</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+      <section class="welcome-section">
+          <h1>Hello, I'm Kishore D</h1>
+          <p class="about-text">
+            I'm a passionate web developer and student. I love building beautiful, responsive websites and web applications using HTML, CSS, and JavaScript.
+            <br><br>
+            I enjoy solving real-world problems, collaborating on open-source projects, and learning new technologies.
+          </p>
+    </section>
+
+  <div class="container">
+    <h1>My Skills</h1>
+    <div class="skills-section">
+      <h2>Web Development Skills</h2>
+      <div class="skill">
+        <span class="icon">🌐</span>
+        <span class="name">C++</span>
+        <span class="percent">85%</span>
+        <div class="bar-bg">
+          <div class="bar" data-percent="85"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span class="icon">🎨</span>
+        <span class="name">WEB DEVELOPMENT</span>
+        <span class="percent">80%</span>
+        <div class="bar-bg">
+          <div class="bar" data-percent="80"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span class="icon">⚡</span>
+        <span class="name">PYTHON</span>
+        <span class="percent">70%</span>
+        <div class="bar-bg">
+          <div class="bar" data-percent="70"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <div class="container">
+    <h1>My Projects</h1>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-title">
+          <span class="project-icon">&lt;/&gt;</span>
+          Personal Portfolio Website
+        </div>
+        <div class="project-description">
+          A clean, responsive portfolio website built with HTML, CSS, and JavaScript.
+        </div>
+        <div class="tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-buttons">
+          <button class="btn code-btn">
+            <span class="code-symbol">&#128295;</span> Code
+          </button>
+          <button class="btn demo-btn">
+            <span class="demo-symbol">&#128279;</span> Demo
+          </button>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-title">
+          <span class="project-icon">&lt;/&gt;</span>
+          Simple Calculator
+        </div>
+        <div class="project-description">
+          Basic calculator app with clean UI and keyboard support.
+        </div>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-buttons">
+          <button class="btn code-btn">
+            <span class="code-symbol">&#128295;</span> Code
+          </button>
+          <button class="btn demo-btn">
+            <span class="demo-symbol">&#128279;</span> Demo
+          </button>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-title">
+          <span class="project-icon">&lt;/&gt;</span>
+          To-Do List App
+        </div>
+        <div class="project-description">
+          Interactive task management with local storage functionality.
+        </div>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-buttons">
+          <button class="btn code-btn">
+            <span class="code-symbol">&#128295;</span> Code
+          </button>
+          <button class="btn demo-btn">
+            <span class="demo-symbol">&#128279;</span> Demo
+          </button>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="project-card">
+        <div class="project-title">
+          <span class="project-icon">&lt;/&gt;</span>
+          Landing Page
+        </div>
+        <div class="project-description">
+          Responsive business landing page with modern design.
+        </div>
+        <div class="tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-buttons">
+          <button class="btn code-btn">
+            <span class="code-symbol">&#128295;</span> Code
+          </button>
+          <button class="btn demo-btn">
+            <span class="demo-symbol">&#128279;</span> Demo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-card">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+          <div class="contact-row">
+            <span class="contact-icon">&#9993;</span>
+            <span class="contact-text">kishore.d0811@gmail.com</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">&#128295;</span>
+            <span class="contact-text">https://github.com/kishored0811</span>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Form -->
+      <div class="contact-card">
+        <h2>Send a Message</h2>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button class="send-btn" type="submit">
+            <span class="send-icon">&#9993;</span>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </form>
+</section>
+    </section>  
+  </main>
+  <footer>
+    <p>&copy; 2025 Kishore</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
